@@ -15,9 +15,38 @@
        </li>
        <li class="list bd">
          <nuxt-link to="/center">商家中心</nuxt-link>
+         <dl>
+           <dd><nuxt-link to="/userCenter">登录商家中心</nuxt-link></dd>
+           <dd><nuxt-link to="/coop">我想合作</nuxt-link></dd>
+           <dd><nuxt-link to="/wap">免费手机开店</nuxt-link></dd>
+           <dd><nuxt-link to="/kaipiao">商家申请开票</nuxt-link></dd>
+         </dl>
        </li>
        <li class="list site">
          <nuxt-link to="/site">网站导航</nuxt-link>
+         <div class="subContainer">
+           <dl class="hotel">
+             <dt>酒店旅游</dt>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+             <dd>国际机票</dd>
+           </dl>
+           <dl class="food">
+             <dd>2</dd>
+           </dl>
+           <dl class="movie">
+             <dd>3</dd>
+           </dl>
+           <dl class="app">
+             <dd>4</dd>
+           </dl>
+         </div>
        </li>
      </ul>
   </div>
