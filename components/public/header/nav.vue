@@ -38,13 +38,44 @@
              <dd>国际机票</dd>
            </dl>
            <dl class="food">
-             <dd>2</dd>
+             <dt>吃美食</dt>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
+             <dd>烤鱼</dd>
            </dl>
            <dl class="movie">
-             <dd>3</dd>
+             <dt>看电影</dt>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
+             <dd>热映电影</dd>
            </dl>
            <dl class="app">
-             <dd>4</dd>
+             <dt>手机应用</dt>
+             <dd>
+               <a href="#">
+                 <img
+                   src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                   title="美团app"
+                   alt="美团app">
+               </a>
+             </dd>
+             <dd>
+               <a href="#">
+                 <img
+                   src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
+                   title="美团app"
+                   alt="美团app">
+               </a>
+             </dd>
            </dl>
          </div>
        </li>
@@ -54,7 +85,7 @@
 
 <script>
 export default {
-  name:"nav"
+
 }
 </script>
 
