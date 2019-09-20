@@ -13,7 +13,6 @@
 
 <script>
   export default {
-    name: "user",
     data(){
       return {
         user:''
@@ -23,6 +22,5 @@
 </script>
 
 <style lang="css">
-
 
 </style>
