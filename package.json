@@ -20,7 +20,17 @@
     "koa": "^2.6.2",
     "node-sass": "^4.12.0",
     "nuxt": "^2.0.0",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "mongoose": "^5.3.0",
+    "koa-router": "^7.4.0",
+    "koa-redis": "^3.1.2",
+    "nodemailer": "^4.6.8",
+    "koa-passport": "^4.1.1",
+    "passport-local": "^1.0.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-generic-session": "^2.0.1",
+    "koa-json": "^2.0.2",
+    "crypto-js": "^3.1.9-1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
