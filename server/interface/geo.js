@@ -105,7 +105,6 @@ router.get('/city', async (ctx) => {
   //     city: []
   //   }
   // }
-
 })
 
 router.get('/hotCity', async (ctx) => {
@@ -149,6 +148,7 @@ router.get('/menu', async (ctx) => {
   ctx.body = {
     menu: result.menu
   }
+
   // let {status, data: {
   //     menu
   //   }} = await axios.get(`http://cp-tools.cn/geo/menu?sign=${sign}`);
