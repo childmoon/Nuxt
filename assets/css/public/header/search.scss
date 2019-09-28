@@ -18,7 +18,8 @@
         width: auto;
         .wrapper {
           margin-top: 16px;
-          border: 1px solid #13D1BE;
+          border: 1px solid rgba(255, 136, 255, 0.55);
+          //border: 1px solid #13D1BE;
           border-radius: 4px;
           width: 552px;
           box-sizing: border-box;
@@ -33,9 +34,10 @@
             border-bottom-right-radius: 0;
           }
           .el-button {
-            width: 88px;
+            width: 85px;
             border: none;
-            background: #13D1BE;
+            background:rgba(255, 136, 255, 0.55);
+            //background: #13D1BE;
             font-size: 16px;
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
@@ -166,7 +168,7 @@
             &:after {
               font-family: iconfont;
               font-size: 36px;
-              color: #13D1BE;
+              color: #FF99FF;
             }
           }
 

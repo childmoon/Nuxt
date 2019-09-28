@@ -4,8 +4,9 @@
       <el-col
         :span="3"
         class="left">
+<!--        src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/logo.png"-->
         <img
-          src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/logo.png"
+          src="@/static/startlogo.png"
           alt="美团">
       </el-col>
       <el-col
@@ -26,7 +27,8 @@
             <!--v-for="(item,index) in searchList"-->
             <dd
               v-for="(item,index) in $store.state.home.hotPlace.slice(0,5)"
-              :key="index">{{item.name}}</dd>
+              :key="index">
+              <a :href="'/products?keyword='+encodeURIComponent(item.name)">{{ item.name }}</a></dd>
 <!--            :key="index">{{item}}</dd>-->
           </dl>
           <dl
@@ -34,14 +36,16 @@
             v-if="isSearchList">
             <dd
               v-for="(item,index) in searchList"
-              :key="index">{{item.name}}</dd>
+              :key="index">
+              <a :href="'/products?keyword='+encodeURIComponent(item.name)">{{ item.name }}</a>
+            </dd>
           </dl>
         </div>
         <p class="suggest">
           <a
             v-for="(item,idx) in $store.state.home.hotPlace.slice(0,5)"
             :key="idx"
-            href="#">{{ item.name }}</a>
+            :href="'/products?keyword='+encodeURIComponent(item.name)">{{ item.name }}</a>
 <!--          <a href="#">故宫博物院</a>-->
 <!--          <a href="#">故宫博物院</a>-->
 <!--          <a href="#">故宫博物院</a>-->
