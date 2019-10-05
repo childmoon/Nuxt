@@ -11,9 +11,7 @@ const store = () => new Vuex.Store({
     home
   },
   actions: {
-    async nuxtServerInit({
-                           commit
-                         }, {req, app}) {
+    async nuxtServerInit({commit}, {req, app}) {
       const {
         status,
         data: {

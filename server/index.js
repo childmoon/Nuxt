@@ -18,7 +18,8 @@ import cart from './interface/cart'
 import order from './interface/order'
 
 const app = new Koa()
-const host = process.env.HOST || '127.0.0.1'
+const host = process.env.HOST || '0.0.0.0'
+// const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
 app.keys = ['mt', 'keyskeys']

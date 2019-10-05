@@ -16,13 +16,16 @@
       <dd>
         <span
           v-for="c in item.city"
-          :key="c">{{ c }}</span>
+          :key="c"
+          @click="handleSelect(c)"
+        >{{ c }}</span>
       </dd>
     </dl>
   </div>
 </template>
 
 <script>
+import axios from '../../server/interface/utils/axios'
 import pyjs from 'js-pinyin'
 export default {
   data(){
@@ -57,6 +60,32 @@ export default {
       }
       blocks.sort((a,b)=>a.title.charCodeAt(0)-b.title.charCodeAt(0))
       self.block=blocks
+    }
+  },
+  methods: {
+    async handleSelect(cityName) {
+      this.$store.commit('geo/setCity',cityName)
+
+      // let sign="abcd"
+      // let city=cityName.replace('市','')
+      // let {status, data: {
+      //   result
+      // }} = await axios.get(`http://cp-tools.cn/search/hotPlace`, {
+      //   params: {
+      //     sign,
+      //     city
+      //   }
+      // })
+      // let paramsCity = {
+      //   result: status === 200
+      //     ? result
+      //     : []
+      // }
+      // paramsCity=[...paramsCity.result]
+      //  // console.log(paramsCity.result);
+      // this.$store.commit('home/setHotPlace', {city:paramsCity,sing:'abcd'})
+
+      history.go(-1)
     }
   }
 }
