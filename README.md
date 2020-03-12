@@ -1,22 +1,35 @@
-# tuangouapp
+# Vue全家桶+服务器渲染SSR+KOA2仿美团
 
 > My ultimate Nuxt.js project
 
-## Build Setup
+## 1. 主要页面
+### 1.1 美团首页(城市定位+search搜索+本地产品推荐)
 
-``` bash
-# install dependencies
-$ npm run install
+### 1.2 注册(Nodemailer)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+### 1.3 登录(Passport)
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+### 1.4 切换城市
 
-# generate static project
-$ npm run generate
-```
+### 1.5 商品购买(商品详情+购物车+订单信息)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## 2. 技术栈
+- 前端
+  + 初始化项目: Nuxt.js
+  + 路由控制/拦截: vue-router
+  + 状态管理: Vuex
+  + 组件库: ELement-ui
+- 服务端
+  + 运行环境: Node.js
+  + 后台开发框架: Koa2
+  + 路由中间件: Koa-router
+  + 发送邮件: Nodemailer
+  + 登录验证: Passport
+- HTTP通讯
+  + 接口请求/拦截: Axios
+- 数据库
+  + 数据库操作: Mongoose
+  + 缓存工具: Redis
+  + 高德地图web服务api接口
+
+
