@@ -2,7 +2,7 @@
   <div class="m-nav">
      <ul class="nav">
        <li class="list">
-         <nuxt-link to="/my">我的美团</nuxt-link>
+         <nuxt-link to="/my">我的牛团</nuxt-link>
          <dl>
            <dd><nuxt-link to="/order">我的订单</nuxt-link></dd>
            <dd><nuxt-link to="/order">我的收藏</nuxt-link></dd>
@@ -63,17 +63,17 @@
              <dd>
                <a href="#">
                  <img
-                   src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
-                   title="美团app"
-                   alt="美团app">
+                   src="../../../static/startlogo.png"
+                   title="牛团app"
+                   alt="牛团app">
                </a>
              </dd>
              <dd>
                <a href="#">
                  <img
-                   src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png"
-                   title="美团app"
-                   alt="美团app">
+                   src="../../../static/startlogo.png"
+                   title="牛团app"
+                   alt="牛团app">
                </a>
              </dd>
            </dl>

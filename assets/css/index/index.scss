@@ -8,7 +8,7 @@
       color: #FFF;
       position: relative;
       //background: linear-gradient(-180deg, rgba(2, 181, 157, .85) 2%, rgba(22, 146, 183, .85) 100%);
-      background: linear-gradient(-180deg, rgba(433, 131, 157, 0.85) 2%, rgba(992, 136, 1773, 0.85) 100%);
+      background: linear-gradient(-180deg, #6eb5ff 2%, #6eb5ff 100%);
 
       dt {
         height: 50px;
@@ -192,7 +192,7 @@
           cursor: pointer;
 
           &:hover {
-            color: #31BBAC;
+            color: #6eb5ff;
           }
         }
       }

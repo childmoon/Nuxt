@@ -8,9 +8,12 @@
       .left {
         width: 280px;
         padding-top: 15px;
+        cursor: pointer;
         img {
-          width: 126px;
+          width: 50px;
           height: 46px;
+          margin-right: 10px;
+          margin-left: 20px;
         }
       }
       .center {
@@ -18,7 +21,7 @@
         width: auto;
         .wrapper {
           margin-top: 16px;
-          border: 1px solid rgba(255, 136, 255, 0.55);
+          border: 1px solid rgb(110, 181, 255);
           //border: 1px solid #13D1BE;
           border-radius: 4px;
           width: 552px;
@@ -36,7 +39,7 @@
           .el-button {
             width: 85px;
             border: none;
-            background:rgba(255, 136, 255, 0.55);
+            background:rgb(110, 181, 255);
             //background: #13D1BE;
             font-size: 16px;
             border-top-left-radius: 0;
@@ -78,7 +81,7 @@
 
               &:hover {
                 background: #F8F8F8;
-                color: #31BBAC;
+                color: #6eb5ff;
               }
             }
 
@@ -111,7 +114,7 @@
             font-size: 12px;
 
             &:hover {
-              color: #31BBAC;
+              color: #6eb5ff;
             }
           }
         }
@@ -144,7 +147,7 @@
               }
 
               &.business:hover {
-                color: #31BBAC;
+                color: #6eb5ff;
               }
             }
           }
@@ -168,7 +171,7 @@
             &:after {
               font-family: iconfont;
               font-size: 36px;
-              color: #FF99FF;
+              color: #6eb5ff;
             }
           }
 

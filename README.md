@@ -1,9 +1,9 @@
-# Vue全家桶+服务器渲染SSR+KOA2仿美团
+# Vue全家桶+服务器渲染SSR+KOA2仿
 
 > My ultimate Nuxt.js project
 
 ## 1. 主要页面
-### 1.1 美团首页(城市定位+search搜索+本地产品推荐)
+### 1.1 牛团首页(城市定位+search搜索+本地产品推荐)
 
 ### 1.2 注册(Nodemailer)
 

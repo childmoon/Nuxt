@@ -1,5 +1,6 @@
 <template>
   <div class="m-user">
+    {{user}}
     <template v-if="user">
       欢迎您，<span class="username">{{ user }}</span>
       [<nuxt-link to="/exit">退出</nuxt-link>]
@@ -21,6 +22,9 @@
       return {
         user:''
       }
+    },
+    methods:{
+
     },
     async mounted(){
       const {status,data:{user}} = await this.$axios.get('/users/getUser')

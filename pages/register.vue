@@ -6,7 +6,7 @@
           href="/"
           class="site-logo" />
         <span class="login">
-          <em class="bold">已有美团账号？</em>
+          <em class="bold">已有牛团账号？</em>
           <a href="/login">
             <el-button
               type="primary"
@@ -68,7 +68,7 @@
           <a
             class="f1"
             href="http://www.meituan.com/about/terms"
-            target="_blank">《美团网用户协议》</a>
+            target="_blank">《牛团网用户协议》</a>
         </el-form-item>
       </el-form>
     </section>

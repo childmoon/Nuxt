@@ -15,7 +15,7 @@ router.get('/getPosition', async (ctx) => {
       province,
       city
     }
-  } = await axios.get(`http://cp-tools.cn/geo/getPosition?sign=${sign}`)
+  } = await axios.get(`http://cp-tools.cn/geo/getPosition`)
     //
     //
     // province='',
@@ -49,7 +49,7 @@ router.get('/province', async (ctx) => {
   //2。访问线上服务的做法
   let {status, data: {
       province
-    }} = await axios.get(`http://cp-tools.cn/geo/province?sign=${sign}`)
+    }} = await axios.get(`http://cp-tools.cn/geo/province`)
   ctx.body = {
     province: status === 200
       ? province
@@ -101,7 +101,7 @@ router.get('/city', async (ctx) => {
 
   let {status, data: {
       city
-    }} = await axios.get(`http://cp-tools.cn/geo/city?sign=${sign}`);
+    }} = await axios.get(`http://cp-tools.cn/geo/city`);
   if (status === 200) {
     ctx.body = {
       city
@@ -137,7 +137,7 @@ router.get('/hotCity', async (ctx) => {
 
   let {status, data: {
       hots
-    }} = await axios.get(`http://cp-tools.cn/geo/hotCity?sign=${sign}`);
+    }} = await axios.get(`http://cp-tools.cn/geo/hotCity`);
   if (status === 200) {
     ctx.body = {
       hots
@@ -157,7 +157,7 @@ router.get('/menu', async (ctx) => {
 
   let {status, data: {
       menu
-    }} = await axios.get(`http://cp-tools.cn/geo/menu?sign=${sign}`);
+    }} = await axios.get(`http://cp-tools.cn/geo/menu`);
   if (status === 200) {
     ctx.body = {
       menu

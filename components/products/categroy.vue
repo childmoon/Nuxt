@@ -66,7 +66,7 @@ export default {
       width: 80px;
       &:nth-child(2){
         border-radius: 100px;
-        background: #FF99FF;
+        background: #6eb5ff;
         color: #FFF;
         height: 22px;
         line-height: 22px;

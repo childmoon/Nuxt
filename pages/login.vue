@@ -11,7 +11,7 @@
           src="//s0.meituan.net/bs/file/?f=fe-sso-fs:build/page/static/banner/www.jpg"
           width="480"
           height="370"
-          alt="美团网">
+          alt="牛团网">
       </div>
       <div class="form">
         <h4
@@ -60,14 +60,16 @@ export default {
       }).then(({status,data})=>{
         if(status===200){
           if(data&&data.code===0){
-            location.href='/'
+            /*location.href='/'*/
           }else{
             self.error=data.msg
           }
+
         }else{
           self.error=`服务器出错`
         }
       })
+      this.$router.back(-1)
     }
   }
 }

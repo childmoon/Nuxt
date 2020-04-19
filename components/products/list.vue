@@ -55,6 +55,7 @@ export default {
     }
   },
   async asyncData({app}) {
+    console.log()
     let { data } = await app.$axios.get('searchList')
     return { items: data.list }
   },

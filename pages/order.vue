@@ -5,7 +5,7 @@
         :span="4"
         class="navbar"
       >
-        <h3>我的美团</h3>
+        <h3>我的牛团</h3>
         <dl>
           <dt>我的订单</dt>
           <dd>全部订单<i class="el-icon-arrow-right" /></dd>
@@ -105,7 +105,7 @@
         return {
           list: list.map((item) => {
             return {
-              img: item.imgs.length ? item.imgs[0].url : 'https://i.loli.net/2019/01/10/5c3767c4a52de.png',
+              img: item.imgs.length ? item.imgs[0].url : 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2011914265,1474904252&fm=26&gp=0.jpg',
               name: item.name,
               count: 1,
               total: item.total,
@@ -115,7 +115,7 @@
           }),
           cur: list.map((item) => {
             return {
-              img: item.imgs.length ? item.imgs[0].url : 'https://i.loli.net/2019/01/10/5c3767c4a52de.png',
+              img: item.imgs.length ? item.imgs[0].url : 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2011914265,1474904252&fm=26&gp=0.jpg',
               name: item.name,
               count: 1,
               total: item.total,
@@ -132,4 +132,4 @@
       }
     }
   }
-</script>
+ </script>
